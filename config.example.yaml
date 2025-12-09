@@ -1,0 +1,11 @@
+# Flowgress to Memos Configuration
+
+# Memos Instance URL
+# Your self-hosted Memos instance URL (without trailing slash)
+# Example: https://memos.example.com or http://localhost:5230
+memos_url: "https://memos.example.com"
+
+# Memos Access Token
+# Generate a token in Memos: Settings -> Access Tokens
+# The token should have permission to create memos
+memos_token: "YOUR_MEMOS_ACCESS_TOKEN_HERE"

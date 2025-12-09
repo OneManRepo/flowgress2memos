@@ -1,0 +1,46 @@
+# Configuration with secrets
+config.yaml
+config.json
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+flowgres2memos
+
+# Python (legacy scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output directories
+dry-run-output/
+
+# Backup files (optional - uncomment if you don't want to commit)
+# flowgress-backup_*/
+flowgress-backup_*/
